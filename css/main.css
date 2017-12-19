@@ -1,0 +1,28 @@
+h1 {
+	color: red;
+	text-align: center;
+	font-size: 170px;
+}
+
+#info-section {
+	background-color: red;
+}
+
+h2 {
+	color: white;
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+
+img {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	background-color: black; 
+	height: 200px;
+	width: 100%;
+}
