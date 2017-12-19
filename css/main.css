@@ -1,19 +1,86 @@
 h1 {
 	color: red;
 	text-align: center;
-	font-size: 170px;
+	font-size: 120px;
+	margin-top: 80px;
 }
 
-#info-section {
-	background-color: red;
-}
-
-h2 {
-	color: white;
+i.glyphicon.glyphicon-heart-empty {
+	color: red;
 	font-size: 20px;
+	display: block;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.hero-sub-text {
+	color: red;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 70px;
+}
+
+#mini-img {
+	height: 55px;
+	width: 55px;
+	background-color: transparent;
+	margin: 0 auto;
+	display: block;
+	margin-top: 70px;
+}
+
+span {
+	font-family: 'VT323', monospace;
+	font-size: 33px;
+	letter-spacing: 2px;
+}
+
+.glyphicon.glyphicon-heart {
+	color: red;
+}
+
+
+#bottom-stick {
+	  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+h2 {
+	color: red;
+	font-size: 60px;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-align: center;
+	margin-top: 40px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: red;
+}
+
+li:hover {
+	font-family: 'VT323', monospace;
+	cursor: pointer;
+	font-size: 18px; 
+	letter-spacing: 2px;
+
+}
+
+#header, #footer {
+	position: fixed;
+    height: 50px;
+    display: inline;
+    width: 100%;
+    z-index: 9;
+    color: #f2f2f2;
+    padding: 20px 0 0 0;
 }
 
 
@@ -23,6 +90,49 @@ img {
 	background-attachment: fixed; 
 	background-size: cover;
 	background-color: black; 
-	height: 200px;
 	width: 100%;
+}
+
+#arrow-wrapper {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  animation: pulsate 2s ease-out;
+  animation-iteration-count: infinite;
+
+}
+
+.arrow {
+  position: absolute;
+  bottom: 24px;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid red;
+  border-right: 3px solid red;
+  right: 19px;
+}
+
+.down {
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}  
+
+
+@keyframes pulsate {
+  0% {
+    transform: scale(0.7, 0.7);
+    opacity: 0.0;
+  }
+  50% {
+    opacity: 1.0;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
 }
