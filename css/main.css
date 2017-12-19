@@ -5,6 +5,12 @@ h1 {
 	margin-top: 80px;
 }
 
+h3 {
+	line-height: 50px;
+	color: black;
+
+}
+
 i.glyphicon.glyphicon-heart-empty {
 	color: red;
 	font-size: 20px;
@@ -51,7 +57,8 @@ h2 {
 	font-size: 60px;
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-top: 40px;
+	margin-top: 65px;
+	text-align: center;
 }
 
 ul {
@@ -62,6 +69,18 @@ li {
 	display: inline-block;
 	margin-left: 50px;
 	margin-right: 50px;
+	color: red;
+}
+
+a {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	font-size: 18px;
+
+}
+
+a:visited {
 	color: red;
 }
 
