@@ -72,6 +72,35 @@ li {
 	color: red;
 }
 
+button.btn.btn-success {
+	background-color: transparent;
+	border: red 3px solid;
+	border-radius: 5px;
+	color: red;
+	margin-right: 18px;
+}
+
+.checkbox label, .radio label {
+	font-weight: 500;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	color: black;
+}
+
+.form-control {
+	border: red solid 1px;
+}
+#party{
+	font-size: 100px;
+	margin-top: 50px;
+	display: block;
+	text-align: center;
+}
+
+#small-h1 {
+	font-size: 100px;
+}
+
 a {
 	text-align: center;
 	margin: 0 auto;
