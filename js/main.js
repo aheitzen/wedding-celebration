@@ -8,7 +8,7 @@ $(document).ready(function (){
         	scrollTop: $("#info-section").offset().top
         }, 1000);
   	});
-  		$("#rsvp-pull").click(function (){
+  	$("#rsvp-pull").click(function (){
     	$('html, body').animate({
         	scrollTop: $("#rsvp").offset().top
         }, 1000);

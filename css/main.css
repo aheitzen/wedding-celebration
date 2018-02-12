@@ -1,6 +1,4 @@
 html, body {
-	/*background-color: red;
-	background-image: url("../images/geometry.png")*/
 	background:linear-gradient(rgba(244, 242, 243, 0.4), rgba(244, 242, 243, 0.4)), url("../images/geometry.png");
 }
 
@@ -9,15 +7,28 @@ h1 {
 	text-align: center;
 	font-size: 90px;
 	margin-top: 40px;
-	/*text-transform: uppercase;*/
-	/*margin-bottom: 110px;*/
-	/*font-family: 'Lato', sans-serif;*/
 	font-family: 'Roboto', sans-serif;
-	
 }
 
-#rsvp-header {
-	margin-bottom: 1.5em;
+h2 {
+	color: #FC4A2A;
+	font-size: 60px;
+	margin-top: 0;
+	margin-bottom: 2.2em;
+	margin-top: 65px;
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+h3 {
+	line-height: 50px;
+	color: #FC4A2A;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 22px;
+
 }
 
 h4 {
@@ -26,79 +37,6 @@ h4 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	margin-bottom: 1.5em;
-}
-
-h3 {
-	line-height: 50px;
-	color: #FC4A2A;
-	/*font-family: 'Lato', sans-serif;*/
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-	font-size: 22px;
-
-}
-
-#heart {
-	text-align: center;
-	display: block;
-	margin-top: 60px;
-}
-
-i.glyphicon.glyphicon-heart-empty {
-	color: #FC4A2A;
-	font-size: 20px;
-	display: block;
-	text-align: center;
-	margin-top: 60px;
-}
-
-.hero-sub-text {
-	color: #FC4A2A;
-	text-align: center;
-	margin-top: 70px;
-	/*font-family: 'Lato', sans-serif;*/
-/*	font-weight: 500;*/
-	font-family: 'Lora', serif;
-	font-size: 30px;
-}
-
-#mini-img {
-	height: 55px;
-	width: 55px;
-	background-color: transparent;
-	margin: 0 auto;
-	display: block;
-	margin-top: 70px;
-}
-
-span {
-	font-family: 'VT323', monospace;
-	font-size: 33px;
-	letter-spacing: 2px;
-}
-
-.glyphicon.glyphicon-heart {
-	color: #FC4A2A;
-}
-
-
-#bottom-stick {
-	  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-h2 {
-	color: #FC4A2A;
-	font-size: 60px;
-	margin-top: 0;
-	margin-bottom: 2.2em;
-	margin-top: 65px;
-	text-align: center;
-	/*font-family: 'Lato', sans-serif;*/
-	font-family: 'Lora', serif;
-	font-weight: 300;
-	font-size: 2em;
 }
 
 ul {
@@ -112,6 +50,26 @@ li {
 	color: #FC4A2A;
 	font-family: 'Lora', serif;
 	font-size: 16px;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+#rsvp-header {
+	margin-bottom: 1.5em;
+}
+
+.hero-sub-text {
+	color: #FC4A2A;
+	text-align: center;
+	margin-top: 70px;
+	font-family: 'Lora', serif;
+	font-size: 30px;
+}
+
+.glyphicon.glyphicon-heart {
+	color: #FC4A2A;
 }
 
 button.btn.btn-success {
@@ -130,47 +88,12 @@ button.btn.btn-success:hover {
 	margin-right: 18px;
 }
 
-
 .checkbox label, .radio label {
 	font-weight: 500;
 	margin-bottom: 25px;
 	margin-top: 25px;
 	color: #FC4A2A;
 	font-family: 'Roboto', sans-serif;
-}
-
-.form-control {
-	/*border: #FC4A2A solid 1px;*/
-}
-#party{
-	font-size: 100px;
-	margin-top: 50px;
-	display: block;
-	text-align: center;
-}
-
-#small-h1 {
-	font-size: 100px;
-}
-
-a {
-	text-align: center;
-	margin: 0 auto;
-	display: block;
-	font-size: 18px;
-	color: #FC4A2A;
-	text-decoration: underline;
-	font-family: 'Roboto', sans-serif;
-	margin-top: 3.5em;
-
-}
-
-a:visited {
-	color: #FC4A2A;
-}
-
-li:hover {
-	cursor: pointer;
 }
 
 #header  {
@@ -184,26 +107,20 @@ li:hover {
     background-color: white;
     box-shadow: 0px 1px 1px #80808047;
 }
-#footer {
-	position: fixed;
-    height: 50px;
-    display: inline;
-    width: 100%;
-    z-index: 9;
-    color: #FC4A2A;
-    padding: 20px 0 0 0;
-    background-color: blue;
 
+a {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	font-size: 18px;
+	color: #FC4A2A;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 3.5em;
 }
 
-
-img {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed; 
-	background-size: cover;
-	background-color: black; 
-	width: 100%;
+a:visited {
+	color: #FC4A2A;
 }
 
 #arrow-wrapper {
@@ -256,9 +173,16 @@ img {
   	h1 {
   		font-size: 67px;
   	}
+  	h2 {
+  		margin-bottom: 28px;
+  	}
   	h3 {
   		font-size: 18px;
   		line-height: 39px;
+  		margin-top: 10px;
+  	}
+  	a {
+  		margin-top: 20px;
   	}
   	#rsvp {
   		margin-left: 30px;
