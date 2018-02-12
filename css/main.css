@@ -1,15 +1,27 @@
+html, body {
+	/*background-color: red;
+	background-image: url("../images/geometry.png")*/
+	background:linear-gradient(rgba(244, 242, 243, 0.4), rgba(244, 242, 243, 0.4)), url("../images/geometry.png");
+}
+
 h1 {
-	color: red;
+	color: #FC4A2A;
 	text-align: center;
 	font-size: 90px;
 	margin-top: 40px;
 	text-transform: uppercase;
 	margin-bottom: 110px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 }
 
 h3 {
 	line-height: 50px;
-	color: black;
+	color: #FC4A2A;
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 22px;
 
 }
 
@@ -20,7 +32,7 @@ h3 {
 }
 
 i.glyphicon.glyphicon-heart-empty {
-	color: red;
+	color: #FC4A2A;
 	font-size: 20px;
 	display: block;
 	text-align: center;
@@ -28,10 +40,12 @@ i.glyphicon.glyphicon-heart-empty {
 }
 
 .hero-sub-text {
-	color: red;
+	color: #FC4A2A;
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 70px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
 }
 
 #mini-img {
@@ -50,7 +64,7 @@ span {
 }
 
 .glyphicon.glyphicon-heart {
-	color: red;
+	color: #FC4A2A;
 }
 
 
@@ -61,12 +75,16 @@ span {
   left: 0;
 }
 h2 {
-	color: red;
+	color: #FC4A2A;
 	font-size: 60px;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 2.2em;
 	margin-top: 65px;
 	text-align: center;
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Lora', serif;
+	font-weight: 300;
+	font-size: 2em;
 }
 
 ul {
@@ -77,14 +95,14 @@ li {
 	display: inline-block;
 	margin-left: 50px;
 	margin-right: 50px;
-	color: red;
+	color: #FC4A2A;
 }
 
 button.btn.btn-success {
 	background-color: transparent;
-	border: red 3px solid;
+	border: #FC4A2A 3px solid;
 	border-radius: 5px;
-	color: red;
+	color: #FC4A2A;
 	margin-right: 18px;
 }
 
@@ -96,7 +114,7 @@ button.btn.btn-success {
 }
 
 .form-control {
-	border: red solid 1px;
+	border: #FC4A2A solid 1px;
 }
 #party{
 	font-size: 100px;
@@ -114,29 +132,31 @@ a {
 	margin: 0 auto;
 	display: block;
 	font-size: 18px;
+	color: #FC4A2A;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 3.5em;
 
 }
 
 a:visited {
-	color: red;
+	color: #FC4A2A;
 }
 
 li:hover {
-	font-family: 'VT323', monospace;
 	cursor: pointer;
-	font-size: 18px; 
-	letter-spacing: 2px;
-
 }
 
 #header  {
 	position: fixed;
-    height: 50px;
+    height: 60px;
     display: inline;
     width: 100%;
     z-index: 9;
-    color: #f2f2f2;
+    color: #FC4A2A;
     padding: 20px 0 0 0;
+    background-color: white;
+    box-shadow: 0px 1px 1px #80808047;
 }
 #footer {
 	position: fixed;
@@ -144,7 +164,7 @@ li:hover {
     display: inline;
     width: 100%;
     z-index: 9;
-    color: #f2f2f2;
+    color: #FC4A2A;
     padding: 20px 0 0 0;
     background-color: blue;
 
@@ -176,8 +196,8 @@ img {
   bottom: 24px;
   width: 20px;
   height: 20px;
-  border-top: 3px solid red;
-  border-right: 3px solid red;
+  border-top: 3px solid #FC4A2A;
+  border-right: 3px solid #FC4A2A;
   right: 19px;
 }
 
