@@ -9,10 +9,23 @@ h1 {
 	text-align: center;
 	font-size: 90px;
 	margin-top: 40px;
-	text-transform: uppercase;
-	margin-bottom: 110px;
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	/*text-transform: uppercase;*/
+	/*margin-bottom: 110px;*/
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+#rsvp-header {
+	margin-bottom: 1.5em;
+}
+
+h4 {
+	font-size: 18px;
+	color: #FC4A2A;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	margin-bottom: 1.5em;
 }
 
 h3 {
@@ -41,11 +54,12 @@ i.glyphicon.glyphicon-heart-empty {
 
 .hero-sub-text {
 	color: #FC4A2A;
-	text-transform: uppercase;
 	text-align: center;
 	margin-top: 70px;
-	font-family: 'Lato', sans-serif;
-	font-weight: 500;
+	/*font-family: 'Lato', sans-serif;*/
+/*	font-weight: 500;*/
+	font-family: 'Lora', serif;
+	font-size: 30px;
 }
 
 #mini-img {
@@ -96,25 +110,37 @@ li {
 	margin-left: 50px;
 	margin-right: 50px;
 	color: #FC4A2A;
+	font-family: 'Lora', serif;
+	font-size: 16px;
 }
 
 button.btn.btn-success {
 	background-color: transparent;
-	border: #FC4A2A 3px solid;
+	border: #bfbfbf 1px solid;
 	border-radius: 5px;
 	color: #FC4A2A;
 	margin-right: 18px;
 }
 
+button.btn.btn-success:hover {
+	background-color: white;
+	border: #bfbfbf 1px solid;
+	border-radius: 5px;
+	color: #FC4A2A;
+	margin-right: 18px;
+}
+
+
 .checkbox label, .radio label {
 	font-weight: 500;
 	margin-bottom: 25px;
 	margin-top: 25px;
-	color: black;
+	color: #FC4A2A;
+	font-family: 'Roboto', sans-serif;
 }
 
 .form-control {
-	border: #FC4A2A solid 1px;
+	/*border: #FC4A2A solid 1px;*/
 }
 #party{
 	font-size: 100px;
