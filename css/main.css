@@ -58,14 +58,48 @@ li:hover {
 
 #rsvp-header {
 	margin-bottom: 1.5em;
+	margin-top: 150px;
+}
+
+#rsvp {
+	height: 100%;
+}
+
+#hero-section {
+	height: 100%;
+}
+
+#info-section {
+	height: 100%;
+}
+
+#details-header {
+	margin-top: 190px;
 }
 
 .hero-sub-text {
 	color: #FC4A2A;
 	text-align: center;
+	margin-top: 280px;
+	font-family: 'Lora', serif;
+	font-size: 30px;
+}
+
+#bottom-stick {
+	margin-bottom: 180px;
+}
+
+.hero-sub-text-small {
+	color: #FC4A2A;
+	text-align: center;
 	margin-top: 70px;
 	font-family: 'Lora', serif;
 	font-size: 30px;
+
+}
+
+i#home {
+	cursor: pointer;
 }
 
 .glyphicon.glyphicon-heart {
@@ -78,6 +112,7 @@ button.btn.btn-success {
 	border-radius: 5px;
 	color: #FC4A2A;
 	margin-right: 18px;
+	margin-bottom: 220px;
 }
 
 button.btn.btn-success:hover {
@@ -117,6 +152,7 @@ a {
 	text-decoration: underline;
 	font-family: 'Roboto', sans-serif;
 	margin-top: 3.5em;
+	margin-bottom: 180px;
 }
 
 a:visited {
@@ -190,6 +226,18 @@ a:visited {
   	.form-control {
   		width: 90%;
   	}
+	h3.hero-sub-text {
+		margin-top: 187px;
+	}
+	#details-header {
+		margin-top: 0;
+	}
+	#rsvp-header {
+		margin-top: 0;
+	}
+	button.btn.btn-success {
+		margin-bottom: 120px;
+	}
   }
 
 
