@@ -186,7 +186,19 @@ a:visited {
   -o-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   transform: rotate(135deg);
-}  
+}
+
+.modal .modal-body p {
+	text-align: center;
+}
+
+.modal .modal-title {
+	text-align: center;
+}
+
+.modal.success .modal-title {
+	color: green;
+}
 
 
 @keyframes pulsate {
@@ -203,8 +215,8 @@ a:visited {
   }
 }
 
-@media only screen 
-  and (min-width: 320px) 
+@media only screen
+  and (min-width: 320px)
   and (max-width: 480px) {
   	h1 {
   		font-size: 67px;
@@ -241,8 +253,8 @@ a:visited {
   }
 
 
-@media only screen 
-and (min-width : 481px) 
+@media only screen
+and (min-width : 481px)
 and (max-width : 767px) {
 	#rsvp {
   		margin-left: 30px;
@@ -256,8 +268,8 @@ and (max-width : 767px) {
   	}
 }
 
-@media only screen 
-and (min-width : 768px) 
+@media only screen
+and (min-width : 768px)
 and (max-width : 1366px) {
 	#rsvp {
   		margin-left: 30px;

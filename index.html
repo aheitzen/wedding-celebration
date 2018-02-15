@@ -10,9 +10,9 @@
 		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/rsvpForm.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 	<body>
@@ -76,15 +76,47 @@
 										Accepts (Whoo-hoo!)
 									</label>
 								</div>
+<<<<<<< HEAD
 								<div class="radio">
 									<label>
 										<input type="radio" name="accepts" value="declines">
 										Declines (it's ok we will see you soon!)
 									</label>
+=======
+								<div class="form-group">
+									<div class="radio">
+										<label>
+											<input type="radio" name="accepts" value="accepts">
+											Accepts (Whoo-hoo!)
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="accepts" value="declines">
+											Declines (it's ok we will see you soon!)
+										</label>
+									</div>
+>>>>>>> bf01054d5a03e85b08f097080c52744ec492ffe2
 								</div>
 							</div>
 							<button type="submit" class="btn btn-success">Submit</button>
 						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" tabindex="-1" role="dialog" id="modal">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body">
+						<p></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Okay</button>
 					</div>
 				</div>
 			</div>
