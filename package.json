@@ -1,0 +1,22 @@
+{
+  "name": "weddingcelebration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aheitzen/weddingcelebration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aheitzen/weddingcelebration/issues"
+  },
+  "homepage": "https://github.com/aheitzen/weddingcelebration#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
