@@ -13,16 +13,18 @@ $(document).ready(function (){
 
 		if (formHandler.isReady && formHandler.verifyRsvp(formData)) {
 			formHandler.addRsvp(formData).success(() => {
-				console.log('success');
-				// TODO: need to show success message
+				$('#modal .modal-header h4').text('Success');
+				$('#modal .modal-body p').text('Your RSVP has been received!');
+				$('#modal').addClass('success').modal({ show: true })
 			}).error((error) => {
-				console.log('error', error);
-			}).done(() => {
-				console.log('done');
+				$('#modal .modal-header h4').text('Error');
+				$('#modal .modal-body p').text('Unknown error: Please email parks.kendrick@gmail.com your RSVP.');
+				$('#modal').removeClass('success').modal({ show: true })
 			})
 		} else {
-			console.log(formHandler.error);
-			// TODO: need to show error message
+			$('#modal .modal-header h4').text('Error');
+			$('#modal .modal-body p').text(formHandler.error);
+			$('#modal').removeClass('success').modal({ show: true });
 			return false;
 		}
 	});
