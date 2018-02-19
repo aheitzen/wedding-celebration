@@ -48,7 +48,7 @@ function FormHandler () {
 			type: 'GET',
 			url: 'https://aplusk-eed13.firebaseio.com/.json'
 		}).success((rsvps) => {
-			self.rsvps = rsvps || self.rsvps;
+			self.rsvps = rsvps ? Array.prototype.slice.call(rsvps) : self.rsvps;
 		}).error((error) => {
 			self.error = error;
 		}).done(() => {
